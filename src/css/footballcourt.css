@@ -1,0 +1,17 @@
+.image2 {
+  background-image: url("./fbcourt.jpeg");
+
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  /*background-position: center;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+.image2 > .display-3 {
+  font-size: 10vh;
+}
+.text-white {
+  font-size: 5vh;
+}

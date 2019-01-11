@@ -1,0 +1,17 @@
+.image1 {
+  background-image: url("./vbcourt.jpeg");
+
+  height: 100%;
+  width: 100%;
+
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+.image1 > .display-3 {
+  font-size: 10vh;
+}
+.text-white {
+  font-size: 5vh;
+}
