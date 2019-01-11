@@ -1,7 +1,7 @@
 ## You must have the following to run this project
-=> node
-=> npm
-=> react
+ node
+ npm
+ react
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
