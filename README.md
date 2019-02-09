@@ -1,4 +1,5 @@
 ## This is the front end for iot dashboard
+![Screenshots](/images/screenshot.png)
 
 
 ## You must have the following to run this project
