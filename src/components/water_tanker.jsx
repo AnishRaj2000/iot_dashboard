@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Line } from "react-chartjs-2";
-
+import level from "../data.json";
 class WaterTanker extends Component {
   state = {
     chartdata: {
@@ -15,10 +15,17 @@ class WaterTanker extends Component {
       datasets: [
         {
           label: "Population 1",
-          data: [617594, 181045, 153060, 106519, 800000, 95072],
+          data: [
+            this.props.data[5],
+            this.props.data[4],
+            this.props.data[3],
+            this.props.data[2],
+            this.props.data[1],
+            this.props.data[0]
+          ],
           backgroundColor: [
-            "rgba(64,164,223,0.6)"
-            // "rgba(54,162,235,0.6)",
+            "rgba(62,164,223,0.6)"
+            //s "rgba(54,162,235,0.6)",
             // "rgba(255,206,86,0.6)",
             // "rgba(75,192,192,0.6)",
             // "rgba(153,102,255,0.6)",
